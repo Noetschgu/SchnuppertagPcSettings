@@ -17,7 +17,6 @@ sudo apt update
 ```
 sudo apt install snapd
 
-
 sudo systemctl enable --now snapd.socket
 ```
 ## add nameservers
@@ -34,7 +33,6 @@ test :
 ```
 ```
 sudo systemctl restart networking.service
-
 ```
 ## codium
 ```
@@ -42,6 +40,10 @@ sudo snap install codium --classic
 ```
 
 ## nodejs
+```
 sudo apt install nodejs
+```
 ## npm
+```
 sudo apt install npm
+```

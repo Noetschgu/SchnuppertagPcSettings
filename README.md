@@ -16,6 +16,9 @@ sudo apt update
 ## snapd
 ```
 sudo apt install snapd
+
+
+sudo systemctl enable --now snapd.socket
 ```
 ## add nameservers
 ```
@@ -32,7 +35,6 @@ test :
 ```
 sudo systemctl restart networking.service
 
-sudo systemctl enable --now snapd.socket
 ```
 ## codium
 ```

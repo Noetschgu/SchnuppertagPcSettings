@@ -3,10 +3,10 @@
 ## edit sources list
 sudo nano /etc/apt/sources.list
 ```
-deb [trusted=true] cdrom:[Official Debian GNU/Linux Live 12.5.0 gnome 2024-02-10T11:07:25Z bookworm main non-free-firmware
+deb [trusted=yes] cdrom:[Official Debian GNU/Linux Live 12.5.0 gnome 2024-02-10T11:07:25Z]/ bookworm main non-free-firmware
 deb http://deb.debian.org/debian-security/ bookworm-security main
 deb-src http://ftp.us.debian.org/debian/ bookworm main contrib non-free
-deb http://deb.debian.org/debian bookworm main
+deb http://deb.debian.org/debian bookworm main 
 deb-src http://deb.debian.org/debian bookworm main
 ```
 speichern

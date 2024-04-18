@@ -13,7 +13,10 @@ speichern
 ```
 sudo apt update
 ```
-
+## snapd
+```
+sudo apt install snapd
+```
 ## add nameservers
 ```
 sudo nano /etc/resolv.conf

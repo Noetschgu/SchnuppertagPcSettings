@@ -1,7 +1,9 @@
 # SchnuppertagPcSettings
 
 ## edit sources list
+```
 sudo nano /etc/apt/sources.list
+```
 ```
 deb [trusted=yes] cdrom:[Official Debian GNU/Linux Live 12.5.0 gnome 2024-02-10T11:07:25Z]/ bookworm main non-free-firmware
 deb http://deb.debian.org/debian-security/ bookworm-security main
@@ -47,3 +49,14 @@ sudo apt install nodejs
 ```
 sudo apt install npm
 ```
+## gnome extensions
+```
+sudo apt install gnome-shell-extension-dashtodock
+```
+Extensions -> Dash to Dock
+Settings -> Intelligent autohide off
+## gnome tweaks
+```
+sudo apt install gnome-tweaks
+```
+Tweaks -> Window Titlebars -> Maximize/Minimize
